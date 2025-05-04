@@ -89,8 +89,8 @@ layers:
             draw:
                 togglelines:
                     order: 2
-                    width: .5px
-                    color: [0, .5, .5]
+                    width: 1px
+                    color: [0, 1, 1]
     boundaries:
         data: { source: mapzen }
         country:
@@ -101,27 +101,27 @@ layers:
                     order: 3
                     width: 1px
                     color: [0, 1, 1]
-        state:
-            filter:
-                kind: state
-            draw:
-                togglelines:
-                    order: 3
-                    width: 1px
-                    color: [0, .5, .5]
-    roads:
-        data: { source: mapzen }
-        draw:
-            togglelines:
-                order: 3
-                width: .25px
-                color: [0, .5, .5]
-    places:
-        data: { source: mapzen }
-        draw:
-            toggletext:
-                order: 4
-                font:
-                    family: Arial
-                    size: 10px
-                    fill: cyan
+        # state:
+        #     filter:
+        #         kind: state
+        #     draw:
+        #         togglelines:
+        #             order: 3
+        #             width: 1px
+        #             color: [0, .5, .5]
+    # roads:
+    #     data: { source: mapzen }
+    #     draw:
+    #         togglelines:
+    #             order: 3
+    #             width: .25px
+    #             color: [0, .5, .5]
+    # places:
+    #     data: { source: mapzen }
+    #     draw:
+    #         toggletext:
+    #             order: 4
+    #             font:
+    #                 family: Arial
+    #                 size: 10px
+    #                 fill: cyan
